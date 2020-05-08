@@ -1,0 +1,26 @@
+.wrapper {
+  background-color: var(--secondary-blue);
+  border-radius: 5px;
+  padding: 15px;
+
+  thead {
+    tr {
+      td {
+        min-width: 160px;
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+  }
+
+  tbody {
+    max-height: 500px;
+    tr {
+      td {
+        border-bottom: 1px dashed var(--main-font);
+        padding: 2px 0px 5px;
+      }
+    }
+  }
+}
